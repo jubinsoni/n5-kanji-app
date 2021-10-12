@@ -14,3 +14,10 @@
     font-size: 40px;
     text-align: center;
 }
+
+@media (max-width: 479px) {
+    .not-found {
+        width: 80%;
+        padding: 10px;
+    }
+}

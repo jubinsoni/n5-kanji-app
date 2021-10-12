@@ -67,3 +67,10 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+@media (max-width: 479px) {
+    .card-details {
+        width: 80%;
+        grid-template-columns: 1fr;
+    }
+}
